@@ -67,10 +67,10 @@ class LinkedList{
     cons *temporary = new cons;
     temporary = head;
     while(temporary != NULL){
-      Serial.print(temporary->data);
+      printf("%f", temposrary->data);
       temporary = temporary->next;
     }
-    Serial.println();
+    printf("/n");
   }
 
   // Getters
